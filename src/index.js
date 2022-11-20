@@ -49,4 +49,3 @@ fetchCountries(value).then(responce => {
 
 
 
-// cardDiv.innerHTML  = countryCard(responce)
