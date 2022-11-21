@@ -32,8 +32,8 @@ fetchCountries(value).then(responce => {
       cardDiv.innerHTML = ``;
    }
    if (responce.length === 1) {
-      const markup = responce.map(responce => countryCard(responce));
-      cardDiv.innerHTML = markup.join('');
+      const markup =   countryCard(responce[0]);
+      cardDiv.innerHTML = markup;
       cardList.innerHTML = '';
     }
   if(responce.length > 10) {
